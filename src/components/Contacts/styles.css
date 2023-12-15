@@ -1,0 +1,63 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+.list > li{
+    background-color: rgb(122, 122, 122);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 5px;
+    margin-bottom: 5px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalCount{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addPerson{
+    background-color: rgb(122, 122, 122);
+    border: none;
+    color:white;
+    border-radius: 0.3rem;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.removeButton{
+    background-color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 12px;
+    cursor: pointer;
+}
